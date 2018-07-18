@@ -10,7 +10,7 @@ git clone https://github.com/RohanBhandari/LIP_JPPNet.git ./human_parsing/LIP_JP
 mkdir ./human_parsing/LIP_JPPNet/checkpoint/
 cd ./human_parsing/LIP_JPPNet/checkpoint/
 printf "\nDownloading human parsing model. This may take a few minutes.\n\n"
-curl -L -o human_parsing_model.zip https://www.dropbox.com/sh/b54kk4asq9f3bgw/AADHgr29Hj-rystQCj1OFTmra?dl=1
+curl -L -o human_parsing_model.zip https://www.dropbox.com/sh/b54kk4asq9f3bgw/AADHgr29Hj-rystQCj1OFTmra\?dl\=1
 unzip human_parsing_model.zip
 cd ../../..
 
@@ -28,6 +28,6 @@ cd try-on/VITON/
 git checkout f8427292e653df9ecb09a1413cfc4e0575a34469 # Get specific commit of repo
 cd model/
 printf "\nDownloading clothing transfer models. This may take a few minutes.\n\n"
-curl -L -o clothing_transfer_public_models.zip https://www.dropbox.com/sh/bxl1omic7o2yf4y/AABpnCFbh1Vr6W-xJqS8rGvqa?dl=1
+curl -L -o clothing_transfer_public_models.zip https://www.dropbox.com/sh/bxl1omic7o2yf4y/AABpnCFbh1Vr6W-xJqS8rGvqa\?dl\=1
 unzip clothing_transfer_public_models.zip
 cd ../../..
