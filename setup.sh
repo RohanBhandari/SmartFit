@@ -24,7 +24,9 @@ cd ../../../..
 
 # Clone repository for try-on
 git clone https://github.com/RohanBhandari/VITON.git ./try-on/VITON/
-cd try-on/VITON/model/
+cd try-on/VITON/
+git checkout f8427292e653df9ecb09a1413cfc4e0575a34469 # Get specific commit of repo
+cd model/
 printf "\nDownloading clothing transfer models. This may take a few minutes.\n\n"
 curl -L -o clothing_transfer_public_models.zip https://www.dropbox.com/sh/bxl1omic7o2yf4y/AABpnCFbh1Vr6W-xJqS8rGvqa?dl=1
 unzip clothing_transfer_public_models.zip

@@ -38,7 +38,7 @@ conda create --name smartfit python=2.7 pip
 source activate smartfit
 pip install -r requirements.txt
 ```
-Additionally, `setup.sh` will clone and setup auxiliary repositories that do the [human parsing](https://github.com/RohanBhandari/LIP_JPPNet.git), [pose estimation](https://github.com/RohanBhandari/keras_Realtime_Multi-Person_Pose_Estimation), and [clothing transfer](https://github.com/RohanBhandari/VITON) steps. This process will download pre-trained models for each of the tasks.
+Additionally, `setup.sh` will clone and setup auxiliary repositories that do the [human parsing](https://github.com/RohanBhandari/LIP_JPPNet.git), [pose estimation](https://github.com/RohanBhandari/keras_Realtime_Multi-Person_Pose_Estimation), and [clothing transfer](https://github.com/RohanBhandari/VITON/tree/f8427292e653df9ecb09a1413cfc4e0575a34469) steps. This process will download pre-trained models for each of the tasks.
 
 ### Test Example
 
